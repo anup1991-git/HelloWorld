@@ -32,7 +32,7 @@ public class HelloWorld extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		response.setContentType("text/html");
         PrintWriter printWriter  = response.getWriter();
-        printWriter.println("<h1>Hello World!</h1>");
+        printWriter.println("<h1>Hello , This is a Hello World Java program"</h1>");
 	}
 
 	/**
